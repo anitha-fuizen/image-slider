@@ -1,0 +1,25 @@
+.carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.icon-right{
+  position: absolute;
+  color: white;
+  right: 23rem;
+}
+ .icon-left{
+  position: absolute;
+  color: white;
+  left:23rem;
+} 
+.slides-hidden{
+  display: none;
+}
+.slides{
+  border-radius: o.5rem;
+  box-shadow: 0 0 7px gray;
+  width:100%;
+  height: 100%;
+}
